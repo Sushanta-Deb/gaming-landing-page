@@ -134,6 +134,69 @@
     background-color: #4EC5F7;
 }
 /* banner done */
+/* gmaer section starts */
+.gamer-section{
+    max-width: 1000px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamer-image{
+    width: 50%;
+}
+.gamer-image img{
+    width: 100%;
+}
+.gamer-text{
+    width: 50%;
+}
+.gamer-text h1{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.gamer-text p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.gamer-btn{
+    padding: 21px 40px;
+    border: 0;
+    border-radius: 3rem;
+    color: #fff;
+    background-color: #F948B2;
+    margin-left: 350px;
+    
+}
+.gamer-text h4{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.gamer-text h3{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+    line-height: 2.8rem;
+}
+/* gamer style end */
 @media screen and (max-width: 576px) {
     .nav-container{
         flex-direction: column;
@@ -163,6 +226,36 @@
      .banner-text{
         width: 100%;
         justify-content: center;
+        text-align: center;
+     }
+     .gamer-section{
+        flex-direction: column;
+        width: auto;
+     }
+     .gamer-image{
+        width: 100%;
+     }
+     .gamer-text{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+     }
+     .gamer-btn{
+        text-align: center;
+        justify-content:center;
+        align-items: center;
+        margin: 2px 30px;
+     }
+     .gamer-text p{
+        text-align: center;
+     }
+     .gamer-text h3{
+        text-align: center;
+     }
+     .gamer-text h4{
+        text-align: center;
+     }
+     .gamer-text h1{
         text-align: center;
      }
     
