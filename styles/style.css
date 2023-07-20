@@ -35,7 +35,7 @@
 .nav-item-container{
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .nav-item-container a{
@@ -58,21 +58,113 @@
     font-weight: 500;
     border-radius: 8px;
     color: #3C354F;
+    
 }
 .follow-btn img{
     height: 15px;
     width: 15px;
     align-items: center;
 }
+/* header done */
+/* banner section */
+.banner-section{
+    max-width: 1000px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+.banner-text{
+    width: 50%;
+    background-color: #FBF6FD;
+    padding: 20px 0;
+}
+.banner-text h1{
+    color: #0B0223;
+    
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2px 0;
+}
+.banner-text h2{
+    
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin: 2px 0;
+}
+.banner-text p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.banner-image{
+    width: 50%;
+}
+.banner-image img{
+    width: 100%;
+}
+.sign-btn{
+    padding: 21px 40px;
+    border: 0;
+    border-radius: 3rem;
+    background-color: #FF42A5;
+    color: #fff;
+    margin-right: 10px;
+}
+.go-btn{
+    padding: 21px 40px;
+    border: 0;
+    border-radius: 3rem;
+    color: #fff;
+    background-color: #4EC5F7;
+}
+/* banner done */
 @media screen and (max-width: 576px) {
     .nav-container{
         flex-direction: column;
+        width: auto;
     }
     .nav-item-container{
         flex-direction: column;
+        width: auto;
+        align-items: center;
     }
     .nav-item-container a{
         margin-top: 20px;
+        width: auto;
+        align-items: center;
     }
+    .follow-btn{
+        text-align: center;
+        align-items: center;
+    }
+    .banner-section{
+        flex-direction: column-reverse; 
+        width: auto;
+     }
+     .banner-image{
+         width: 100%;
+     }
+     .banner-text{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+     }
+    
 }
 
